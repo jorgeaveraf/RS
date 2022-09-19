@@ -3,6 +3,5 @@ def fib(n):
      while a < n:
          print(a, end=' ')
          a, b = b, a+b
-     print()
 print("Defina el limite de la serie")
 fib(int(input()))
